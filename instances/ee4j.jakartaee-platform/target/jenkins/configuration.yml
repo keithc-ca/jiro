@@ -98,7 +98,7 @@ jenkins:
               - Overall/Read
               - Job/Read
         - user:
-            name: smarlow@redhat.com
+            name: scott.marlow.opensource@gmail.com
             permissions:
               - Overall/SystemRead
   markupFormatter: rawHtml

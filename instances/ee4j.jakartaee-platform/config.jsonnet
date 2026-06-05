@@ -18,7 +18,7 @@ local permissionsTemplates = import '../../templates/permissions.libsonnet';
       "groovy",
     ],
     permissions+:
-      permissionsTemplates.user("smarlow@redhat.com", ["Overall/SystemRead"]) +
+      permissionsTemplates.user("scott.marlow.opensource@gmail.com", ["Overall/SystemRead"]) +
       permissionsTemplates.user("jakartaee-platform-api-bot@eclipse.org", ["Overall/Read", "Job/Read"]),
   },
   maven+: {
