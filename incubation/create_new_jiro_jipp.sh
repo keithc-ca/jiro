@@ -64,7 +64,7 @@ wait_for_jipp_post_setup() {
   n=0
   until [ $n -ge 15 ]
   do
-    curl -sL -w "%{http_code}\n" "https://${host}/${short_name}" -o /dev/null | grep 200 && break
+    curl -sL -w "%{http_code}\n" "https://${host}/${short_name}" -o /dev/null | grep -e 200 -e 403 && break
     printf "."
     n=$((n+1))
     sleep 12
