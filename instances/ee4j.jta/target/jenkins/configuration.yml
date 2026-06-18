@@ -125,7 +125,7 @@ jenkins:
             label: "basic basic-ubuntu"
             containers:
               - name: "jnlp"
-                image: docker.io/eclipsecbi/jiro-agent-basic-ubuntu:remoting-3352.v17a_fb_4b_2773f
+                image: docker.io/eclipsecbi/jiro-agent-basic-ubuntu:remoting-3355.v388858a_47b_33
                 alwaysPullImage: true
                 livenessProbe:
                   failureThreshold: 0
@@ -178,6 +178,9 @@ jenkins:
             yaml: |
               apiVersion: v1
               kind: Pod
+              metadata:
+                labels:
+                  logging.grafana.com/collect: "true"
               spec:
                 containers:
                 - name: jnlp
@@ -219,7 +222,7 @@ jenkins:
             label: "ubuntu-2204"
             containers:
               - name: "jnlp"
-                image: docker.io/eclipsecbi/jiro-agent-ubuntu-2204:remoting-3352.v17a_fb_4b_2773f
+                image: docker.io/eclipsecbi/jiro-agent-ubuntu-2204:remoting-3355.v388858a_47b_33
                 alwaysPullImage: true
                 livenessProbe:
                   failureThreshold: 0
@@ -272,6 +275,9 @@ jenkins:
             yaml: |
               apiVersion: v1
               kind: Pod
+              metadata:
+                labels:
+                  logging.grafana.com/collect: "true"
               spec:
                 containers:
                 - name: jnlp
@@ -313,7 +319,7 @@ jenkins:
             label: "ubuntu-latest ubuntu-2404 migration jipp-migration centos-7 centos-8 centos-latest"
             containers:
               - name: "jnlp"
-                image: docker.io/eclipsecbi/jiro-agent-ubuntu-2404:remoting-3352.v17a_fb_4b_2773f
+                image: docker.io/eclipsecbi/jiro-agent-ubuntu-2404:remoting-3355.v388858a_47b_33
                 alwaysPullImage: true
                 livenessProbe:
                   failureThreshold: 0
@@ -366,6 +372,9 @@ jenkins:
             yaml: |
               apiVersion: v1
               kind: Pod
+              metadata:
+                labels:
+                  logging.grafana.com/collect: "true"
               spec:
                 containers:
                 - name: jnlp
