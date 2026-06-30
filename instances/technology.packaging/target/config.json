@@ -350,6 +350,15 @@
       "permissions": [
          {
             "group": {
+               "name": "authenticated",
+               "permissions": [
+                  "Overall/Read",
+                  "Job/Read"
+               ]
+            }
+         },
+         {
+            "group": {
                "name": "common",
                "permissions": [
                   "Overall/Read",
@@ -419,6 +428,7 @@
       ],
       "plugins": [
          "urltrigger",
+         "parameterized-remote-trigger-plugin",
          "pipeline-graph-view"
       ],
       "pluginsForceUpgrade": true,

@@ -66,6 +66,11 @@ data:
                   - View/Delete
                   - View/Read
             - group:
+                name: authenticated
+                permissions:
+                  - Overall/Read
+                  - Job/Read
+            - group:
                 name: common
                 permissions:
                   - Overall/Read

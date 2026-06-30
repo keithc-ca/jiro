@@ -44,6 +44,11 @@ data:
                 permissions:
                   - Overall/Administer
             - group:
+                name: authenticated
+                permissions:
+                  - Overall/Read
+                  - Job/Read
+            - group:
                 name: automotive.app4mc
                 permissions:
                   - Agent/Build
