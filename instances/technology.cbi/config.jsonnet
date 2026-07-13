@@ -30,6 +30,7 @@
       "secret-guard",
       "slack",
       "sse-gateway",
+      "thinBackup",
       "trilead-api",
     ],
   },

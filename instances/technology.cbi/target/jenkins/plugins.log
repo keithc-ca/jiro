@@ -1,9 +1,9 @@
 Resulting plugin list:
-analysis-model-api 14.12.0-992.v1093094f193e
+analysis-model-api 14.13.0-998.v6dec20409ce6
 ant 520.vd082ecfb_16a_9
 antisamy-markup-formatter 173.v680e3a_b_69ff3
 apache-httpcomponents-client-4-api 4.5.14-269.vfa_2321039a_83
-apache-httpcomponents-client-5-api 5.6.1-195.v65ffe15189a_d
+apache-httpcomponents-client-5-api 5.6.2-199.vc3c04d033fcc
 asm-api 9.10.1-216.va_9256d3b_844b_
 authentication-tokens 1.144.v5ff4a_5ec5c33
 authorize-project 531.vf8761dfd75d2
@@ -14,7 +14,7 @@ branch-api 2.1280.v0d4e5b_b_460ef
 build-discarder 158.vce570d01ce4c
 build-timeout 1.40
 build-with-parameters 81.ve4a_9c2499d9a
-caffeine-api 3.2.3-194.v31a_b_f7a_b_5a_81
+caffeine-api 3.2.4-208.v7e2da_a_7db_82b_
 checks-api 415.vf022234a_931d
 cloudbees-disk-usage-simple 270.vfb_6898193d8d
 cloudbees-folder 6.1100.ve9eed61d16c4
@@ -53,7 +53,7 @@ github-api 1.330-492.v3941a_032db_2a_
 github-branch-source 1967.1969.v205fd594c821
 gitlab-api 6.3.0-126.vd066b_d896159
 gitlab-branch-source 740.v04f287f9194d
-gitlab-plugin 1.9.13
+gitlab-plugin 1.9.16
 gradle 2.19.1244.v1f9866817fec
 gson-api 2.14.0-201.v8eefe5515533
 handy-uri-templates-2-api 2.1.8-38.vcea_5d521d5f3
@@ -62,7 +62,7 @@ htmlpublisher 427.1
 instance-identity 203.v15e81a_1b_7a_38
 ionicons-api 94.vcc3065403257
 jackson-annotations2-api 2.22-19.v10a_a_582ea_26e
-jackson2-api 2.21.2-436.v29efdb_7418ff
+jackson2-api 2.22.0-439.vb_b_43658d6176
 jackson3-api 3.2.0-83.vfb_04cee1ea_0f
 jakarta-activation-api 2.1.4-1
 jakarta-mail-api 2.1.5-1
@@ -97,12 +97,12 @@ mina-sshd-api-common 2.17.1-187.v0341274c2905
 mina-sshd-api-core 2.17.1-187.v0341274c2905
 minio 1.3.499.v9d1eeeee3a_68
 okhttp-api 5.3.2-200.vedb_720a_cf1f8
-oss-symbols-api 461.v209fb_a_3e73da_
+oss-symbols-api 463.vff8a_5631a_09d
 pam-auth 1.12
 parameterized-trigger 893.va_383a_9b_a_4c11
 pipeline-build-step 584.vdb_a_2cc3a_d07a_
 pipeline-graph-analysis 254.v0f63a_a_447dca_
-pipeline-graph-view 940.v790e7a_c51722
+pipeline-graph-view 941.v59dfb_12738a_9
 pipeline-groovy-lib 798.v5cc688825312
 pipeline-input-step 551.vdff487c5998c
 pipeline-maven 1735.v63b_5b_1b_d25d9
@@ -125,7 +125,7 @@ pubsub-light 1.19
 rebuild 338.va_0a_b_50e29397
 resource-disposer 0.25
 scm-api 728.vc30dcf7a_0df5
-script-security 1402.v94c9ce464861
+script-security 1402.1405.vc96e74964250
 secret-guard 128.v3fec68d6e454
 simple-theme-plugin 230.v8b_fd91b_b_800c
 slack 795.v4b_9705b_e6d47
@@ -138,6 +138,7 @@ ssh-credentials 372.va_250881b_08cd
 ssh-slaves 3.1097.v868116049892
 structs 362.va_b_695ef4fdf9
 support-core 1840.v08d78d1b_4db_c
+thinBackup 2.1.4
 timestamper 1.30
 token-macro 477.vd4f0dc3cb_cf1
 trilead-api 2.284.v1974ea_324382
@@ -147,7 +148,7 @@ woodstox-core-api 7.2.1-6.v3718a_a_11f5c4
 workflow-aggregator 608.v67378e9d3db_1
 workflow-api 1413.v2ff1a_5e720fa_
 workflow-basic-steps 1098.v808b_fd7f8cf4
-workflow-cps 4331.v9d06ed4658ff
+workflow-cps 4331.4333.v50a_b_076c5199
 workflow-durable-task-step 1479.v56e587f413a_7
 workflow-job 1571.1580.v18e46842c125
 workflow-multibranch 821.vc3b_4ea_780798
