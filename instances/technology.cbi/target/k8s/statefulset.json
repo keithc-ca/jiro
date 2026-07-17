@@ -67,7 +67,7 @@
                         "value": "true"
                      }
                   ],
-                  "image": "docker.io/eclipsecbijenkins/technology.cbi:2.555.3",
+                  "image": "docker.io/eclipsecbijenkins/technology.cbi:2.568.1",
                   "imagePullPolicy": "Always",
                   "lifecycle": {
                      "preStop": {
