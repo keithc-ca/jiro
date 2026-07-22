@@ -866,10 +866,16 @@ data:
               - installSource:
                   installers:
                     - zip:
-                        subdir: "maven-mvnd-1.0.3-linux-amd64"
-                        url: "https://download.eclipse.org/cbi/build-tools/maven-mvnd-1.0.3-linux-amd64.tar.gz"
+                        subdir: "maven-mvnd-1.0.6-linux-amd64"
+                        url: "https://download.eclipse.org/cbi/build-tools/maven-mvnd-1.0.6-linux-amd64.tar.gz"
           - name: "apache-maven-latest"
             home: "/opt/tools/apache-maven/latest"
+          - name: "apache-maven-3-latest"
+            home: "/opt/tools/apache-maven/3-latest"
+          - name: "apache-maven-4-latest"
+            home: "/opt/tools/apache-maven/4-latest"
+          - name: "apache-maven-3.9.16"
+            home: "/opt/tools/apache-maven/3.9.16"
           - name: "apache-maven-3.9.12"
             home: "/opt/tools/apache-maven/3.9.12"
           - name: "apache-maven-3.9.11"
